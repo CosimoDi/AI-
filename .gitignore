@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#只有我阅读
+README0.md
+config_local.py
+summarizer_config_local.py
+feishu_config_local.py

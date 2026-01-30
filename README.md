@@ -48,11 +48,3 @@ python summarizer.py
 # 推送到飞书
 python feishu_sender.py --latest
 ```
-
-# 修改原因：将python命令替换为Python 3.11绝对路径，规避环境冲突，解决ModuleNotFoundError问题
-pip install -r requirements.txt
-C:\Users\陈景鸿\AppData\Local\Programs\Python\Python311\python.exe twitter_monitor.py --once
-C:\Users\陈景鸿\AppData\Local\Programs\Python\Python311\python.exe twitter_monitor.py
-
-C:\Users\陈景鸿\AppData\Local\Programs\Python\Python311\python.exe summarizer.py
-C:\Users\陈景鸿\AppData\Local\Programs\Python\Python311\python.exe feishu_sender.py --latest
