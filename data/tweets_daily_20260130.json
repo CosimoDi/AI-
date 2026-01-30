@@ -1,0 +1,659 @@
+{
+  "date": "2026-01-30",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "2017249999021891884",
+      "url": "https://x.com/geekbb/status/2017249999021891884",
+      "twitterUrl": "https://twitter.com/geekbb/status/2017249999021891884",
+      "text": "@miantiao 我去试试Webchat",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 22,
+      "createdAt": "Fri Jan 30 14:54:13 +0000 2026",
+      "lang": "zh",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2017244589103747238",
+      "conversationId": "2017235132189716777",
+      "displayTextRange": [
+        10,
+        21
+      ],
+      "inReplyToUserId": "126880447",
+      "inReplyToUsername": "miantiao",
+      "author": {
+        "type": "user",
+        "userName": "geekbb",
+        "url": "https://x.com/geekbb",
+        "twitterUrl": "https://twitter.com/geekbb",
+        "id": "168139512",
+        "name": "Geek",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1644898947272671233/7959WGOK_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/168139512/1689476157",
+        "description": "",
+        "location": "火星",
+        "followers": 104726,
+        "following": 447,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sun Jul 18 14:10:39 +0000 2010",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 18320,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 6504,
+        "statusesCount": 25099,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "🧠在家居士 | 🥦素食者 | 🏃🏻马拉松爱好者 | 💰省钱小能手 | 搭🪜技术资深学者 | 👨‍💻科技宅 | 🆕更新狂 | 🆅 六边型战五渣 | ⚡️ Geek Lite ➮ @QingQ77",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    88,
+                    96
+                  ],
+                  "name": "",
+                  "screen_name": "QingQ77"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "igeekbb.com",
+                  "expanded_url": "https://www.igeekbb.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/lNbogZ0jXq"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "126880447",
+            "indices": [
+              0,
+              9
+            ],
+            "name": "面条",
+            "screen_name": "miantiao"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "2017249233775260021",
+      "url": "https://x.com/Kimi_Moonshot/status/2017249233775260021",
+      "twitterUrl": "https://twitter.com/Kimi_Moonshot/status/2017249233775260021",
+      "text": "Kimi K2.5 tech report just dropped!\n\nQuick hits:\n- Joint text–vision training: pretrained with 15T vision-text tokens, zero-vision SFT (text-only) to activate visual reasoning\n- Agent Swarm + PARL: dynamically orchestrated parallel sub-agents, up to 4.5× lower latency, 78.4% on BrowseComp\n- MoonViT-3D: a unified image–video encoder with 4× temporal compression, enabling 4× longer videos in the same context\n- Toggle: token-efficient RL, 25–30% fewer tokens with no accuracy drop\n\nHere's our work toward scalable, real-world agentic intelligence. More details in the report 👉https://t.co/N5pwm0M4jm",
+      "source": "Twitter for iPhone",
+      "retweetCount": 16,
+      "replyCount": 3,
+      "likeCount": 74,
+      "quoteCount": 14,
+      "viewCount": 2554,
+      "createdAt": "Fri Jan 30 14:51:10 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 17,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2017249233775260021",
+      "displayTextRange": [
+        0,
+        303
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "Kimi_Moonshot",
+        "url": "https://x.com/Kimi_Moonshot",
+        "twitterUrl": "https://twitter.com/Kimi_Moonshot",
+        "id": "1863959670169501696",
+        "name": "Kimi.ai",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business",
+        "profilePicture": "https://pbs.twimg.com/profile_images/1910294000927645696/QseOV0uF_normal.png",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1863959670169501696/1733238156",
+        "description": "",
+        "location": "",
+        "followers": 97315,
+        "following": 119,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Tue Dec 03 14:54:14 +0000 2024",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 228,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 88,
+        "statusesCount": 249,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2016024049869324599"
+        ],
+        "profile_bio": {
+          "description": "Built by Moonshot AI to empower everyone to be superhuman. ⚡️API: https://t.co/ggYlFf809H\n@KimiProduct where we share cool use cases and prompts.",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "platform.moonshot.ai",
+                  "expanded_url": "https://platform.moonshot.ai/",
+                  "indices": [
+                    66,
+                    89
+                  ],
+                  "url": "https://t.co/ggYlFf809H"
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    90,
+                    102
+                  ],
+                  "name": "",
+                  "screen_name": "KimiProduct"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "kimi.com",
+                  "expanded_url": "https://www.kimi.com/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/mlnKFmsdLe"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/vpmepE3AX4",
+            "expanded_url": "https://twitter.com/Kimi_Moonshot/status/2017249233775260021/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "2017249080989376512",
+            "indices": [
+              304,
+              327
+            ],
+            "media_key": "3_2017249080989376512",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARv+tVnv2uAACgACG/61fYKacXUAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG/61We/a4AAKAAIb/rV9gppxdQAA",
+                "media_key": "3_2017249080989376512"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G_61We_a4AAtyWq.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 324,
+                  "w": 579,
+                  "x": 586,
+                  "y": 0
+                },
+                {
+                  "h": 324,
+                  "w": 324,
+                  "x": 713,
+                  "y": 0
+                },
+                {
+                  "h": 324,
+                  "w": 284,
+                  "x": 733,
+                  "y": 0
+                },
+                {
+                  "h": 324,
+                  "w": 162,
+                  "x": 794,
+                  "y": 0
+                },
+                {
+                  "h": 324,
+                  "w": 1404,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 324,
+              "width": 1404
+            },
+            "sizes": {
+              "large": {
+                "h": 324,
+                "w": 1404
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/vpmepE3AX4"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/vpmepE3AX4",
+            "expanded_url": "https://twitter.com/Kimi_Moonshot/status/2017249233775260021/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "2017249095312982016",
+            "indices": [
+              304,
+              327
+            ],
+            "media_key": "3_2017249095312982016",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARv+tV1Fm8AACgACG/61fYKacXUAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG/61XUWbwAAKAAIb/rV9gppxdQAA",
+                "media_key": "3_2017249095312982016"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G_61XUWbwAAmSuD.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 828,
+                  "w": 1478,
+                  "x": 0,
+                  "y": 36
+                },
+                {
+                  "h": 864,
+                  "w": 864,
+                  "x": 614,
+                  "y": 0
+                },
+                {
+                  "h": 864,
+                  "w": 758,
+                  "x": 692,
+                  "y": 0
+                },
+                {
+                  "h": 864,
+                  "w": 432,
+                  "x": 855,
+                  "y": 0
+                },
+                {
+                  "h": 864,
+                  "w": 1478,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 864,
+              "width": 1478
+            },
+            "sizes": {
+              "large": {
+                "h": 864,
+                "w": 1478
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/vpmepE3AX4"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/vpmepE3AX4",
+            "expanded_url": "https://twitter.com/Kimi_Moonshot/status/2017249233775260021/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "2017249113495220225",
+            "indices": [
+              304,
+              327
+            ],
+            "media_key": "3_2017249113495220225",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARv+tWGBWrABCgACG/61fYKacXUAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG/61YYFasAEKAAIb/rV9gppxdQAA",
+                "media_key": "3_2017249113495220225"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G_61YYFasAEQH3e.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 799,
+                  "w": 1426,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 868,
+                  "w": 868,
+                  "x": 242,
+                  "y": 0
+                },
+                {
+                  "h": 868,
+                  "w": 761,
+                  "x": 296,
+                  "y": 0
+                },
+                {
+                  "h": 868,
+                  "w": 434,
+                  "x": 459,
+                  "y": 0
+                },
+                {
+                  "h": 868,
+                  "w": 1426,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 868,
+              "width": 1426
+            },
+            "sizes": {
+              "large": {
+                "h": 868,
+                "w": 1426
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/vpmepE3AX4"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/vpmepE3AX4",
+            "expanded_url": "https://twitter.com/Kimi_Moonshot/status/2017249233775260021/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "2017249131375493120",
+            "indices": [
+              304,
+              327
+            ],
+            "media_key": "3_2017249131375493120",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARv+tWWrGgAACgACG/61fYKacXUAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG/61ZasaAAAKAAIb/rV9gppxdQAA",
+                "media_key": "3_2017249131375493120"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G_61ZasaAAAGD4M.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 722,
+                  "w": 1289,
+                  "x": 18,
+                  "y": 0
+                },
+                {
+                  "h": 722,
+                  "w": 722,
+                  "x": 301,
+                  "y": 0
+                },
+                {
+                  "h": 722,
+                  "w": 633,
+                  "x": 346,
+                  "y": 0
+                },
+                {
+                  "h": 722,
+                  "w": 361,
+                  "x": 482,
+                  "y": 0
+                },
+                {
+                  "h": 722,
+                  "w": 1324,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 722,
+              "width": 1324
+            },
+            "sizes": {
+              "large": {
+                "h": 722,
+                "w": 1324
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/vpmepE3AX4"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "github.com/MoonshotAI/Kim…",
+            "expanded_url": "https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf",
+            "indices": [
+              577,
+              600
+            ],
+            "url": "https://t.co/N5pwm0M4jm"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "2017241261506486463",
+      "url": "https://x.com/geekbb/status/2017241261506486463",
+      "twitterUrl": "https://twitter.com/geekbb/status/2017241261506486463",
+      "text": "@miantiao 没有，你弄好了？我发现第三方API就会有这个问题",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 1,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 231,
+      "createdAt": "Fri Jan 30 14:19:29 +0000 2026",
+      "lang": "zh",
+      "bookmarkCount": 0,
+      "isReply": true,
+      "inReplyToId": "2017240289430421847",
+      "conversationId": "2017235132189716777",
+      "displayTextRange": [
+        10,
+        34
+      ],
+      "inReplyToUserId": "126880447",
+      "inReplyToUsername": "miantiao",
+      "author": {
+        "type": "user",
+        "userName": "geekbb",
+        "url": "https://x.com/geekbb",
+        "twitterUrl": "https://twitter.com/geekbb",
+        "id": "168139512",
+        "name": "Geek",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1644898947272671233/7959WGOK_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/168139512/1689476157",
+        "description": "",
+        "location": "火星",
+        "followers": 104726,
+        "following": 447,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sun Jul 18 14:10:39 +0000 2010",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 18320,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 6504,
+        "statusesCount": 25099,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "🧠在家居士 | 🥦素食者 | 🏃🏻马拉松爱好者 | 💰省钱小能手 | 搭🪜技术资深学者 | 👨‍💻科技宅 | 🆕更新狂 | 🆅 六边型战五渣 | ⚡️ Geek Lite ➮ @QingQ77",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    88,
+                    96
+                  ],
+                  "name": "",
+                  "screen_name": "QingQ77"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "igeekbb.com",
+                  "expanded_url": "https://www.igeekbb.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/lNbogZ0jXq"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "126880447",
+            "indices": [
+              0,
+              9
+            ],
+            "name": "面条",
+            "screen_name": "miantiao"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "count": 3
+}

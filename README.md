@@ -1,5 +1,7 @@
 # AI 热点自动监控
 
+观众基于bilibili@人工大黑在 https://anxiety.daheiai.com/ 开源的项目，做二次开发。若有侵权请联系微信：CJHdhxsj1101
+
 自动监控 Twitter 上 AI 领域博主的推文，使用 AI 总结后推送到飞书。
 
 ## 配置
@@ -46,3 +48,11 @@ python summarizer.py
 # 推送到飞书
 python feishu_sender.py --latest
 ```
+
+# 修改原因：将python命令替换为Python 3.11绝对路径，规避环境冲突，解决ModuleNotFoundError问题
+pip install -r requirements.txt
+C:\Users\陈景鸿\AppData\Local\Programs\Python\Python311\python.exe twitter_monitor.py --once
+C:\Users\陈景鸿\AppData\Local\Programs\Python\Python311\python.exe twitter_monitor.py
+
+C:\Users\陈景鸿\AppData\Local\Programs\Python\Python311\python.exe summarizer.py
+C:\Users\陈景鸿\AppData\Local\Programs\Python\Python311\python.exe feishu_sender.py --latest

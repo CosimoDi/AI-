@@ -13,13 +13,13 @@ AI推文总结器的配置文件
 # API 配置 (OpenAI兼容格式)
 # ============================================
 # API 地址（可以是你自己的API代理地址）
-API_BASE_URL = "https://api.minimaxi.com/v1"
+API_BASE_URL = "https://api.siliconflow.cn/v1"
 
 # API 密钥
-API_KEY = ""  # 这里填写你自己的秘钥
+API_KEY = "sk-ijicsljzciaomrpwrgymjqvfryfygoikmwmordqpxlqteyve"  # 这里填写你自己的秘钥
 
 # 模型名称
-MODEL = ""
+MODEL = "deepseek-ai/DeepSeek-V3.2"
 
 # ============================================
 # 系统提示词
