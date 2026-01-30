@@ -1,0 +1,44 @@
+"""
+Feishu (飞书) Message Sender Configuration
+===========================================
+飞书消息发送配置
+"""
+
+# ============================================
+# 应用凭证
+# ============================================
+# APP ID
+APP_ID = "#" # 在这里填写你的APP_ID
+
+# APP Secret
+APP_SECRET = "#" # 在这里填写你的APP_SECRET
+
+# ============================================
+# 接收者配置
+# ============================================
+# 接收者ID类型: open_id / union_id / user_id / email / chat_id
+RECEIVE_ID_TYPE = "chat_id"
+
+# 群聊ID（当发送给群聊时）
+CHAT_ID = "#" # 在这里填写你的CHAT_ID
+
+# ============================================
+# API 配置
+# ============================================
+# 获取 tenant_access_token 的地址
+TOKEN_URL = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
+
+# 发送消息的地址
+MESSAGE_URL = "https://open.feishu.cn/open-apis/im/v1/messages"
+
+# ============================================
+# 消息配置
+# ============================================
+# 消息类型: text / post / interactive
+MESSAGE_TYPE = "post"
+
+# 发送者名称
+SENDER_NAME = "AI News Bot"
+
+# 消息最大长度（超过会分段发送）
+MAX_MESSAGE_LENGTH = 15000

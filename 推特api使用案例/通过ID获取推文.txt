@@ -1,0 +1,180 @@
+Tweet Endpoint
+Get Tweets by IDs
+get tweet by tweet ids
+
+GET
+/
+twitter
+/
+tweets
+
+Try it
+Authorizations
+​
+X-API-Key
+stringheaderrequired
+Query Parameters
+​
+tweet_ids
+string[]required
+The tweet ids to get.eg. 1846987139428634858,1866332309399781537,1868244766405870076. Use comma to separate multiple tweet ids
+
+Response
+
+200
+
+application/json
+Tweets response
+
+​
+tweets
+object[]required
+Array of tweets
+
+Show child attributes
+
+​
+status
+enum<string>required
+Status of the request.success or error
+
+Available options: success, error 
+​
+message
+stringrequired
+Message of the request.error message
+
+curl --request GET \
+  --url https://api.twitterapi.io/twitter/tweets \
+  --header 'X-API-Key: <api-key>'
+
+200
+{
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "<string>",
+      "url": "<string>",
+      "text": "<string>",
+      "source": "<string>",
+      "retweetCount": 123,
+      "replyCount": 123,
+      "likeCount": 123,
+      "quoteCount": 123,
+      "viewCount": 123,
+      "createdAt": "<string>",
+      "lang": "<string>",
+      "bookmarkCount": 123,
+      "isReply": true,
+      "inReplyToId": "<string>",
+      "conversationId": "<string>",
+      "displayTextRange": [
+        123
+      ],
+      "inReplyToUserId": "<string>",
+      "inReplyToUsername": "<string>",
+      "author": {
+        "type": "user",
+        "userName": "<string>",
+        "url": "<string>",
+        "id": "<string>",
+        "name": "<string>",
+        "isBlueVerified": true,
+        "verifiedType": "<string>",
+        "profilePicture": "<string>",
+        "coverPicture": "<string>",
+        "description": "<string>",
+        "location": "<string>",
+        "followers": 123,
+        "following": 123,
+        "canDm": true,
+        "createdAt": "<string>",
+        "favouritesCount": 123,
+        "hasCustomTimelines": true,
+        "isTranslator": true,
+        "mediaCount": 123,
+        "statusesCount": 123,
+        "withheldInCountries": [
+          "<string>"
+        ],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": true,
+        "pinnedTweetIds": [
+          "<string>"
+        ],
+        "isAutomated": true,
+        "automatedBy": "<string>",
+        "unavailable": true,
+        "message": "<string>",
+        "unavailableReason": "<string>",
+        "profile_bio": {
+          "description": "<string>",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "<string>",
+                  "expanded_url": "<string>",
+                  "indices": [
+                    123
+                  ],
+                  "url": "<string>"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "<string>",
+                  "expanded_url": "<string>",
+                  "indices": [
+                    123
+                  ],
+                  "url": "<string>"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              123
+            ],
+            "text": "<string>"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "<string>",
+            "expanded_url": "<string>",
+            "indices": [
+              123
+            ],
+            "url": "<string>"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "<string>",
+            "name": "<string>",
+            "screen_name": "<string>"
+          }
+        ]
+      },
+      "quoted_tweet": {},
+      "retweeted_tweet": {},
+      "isLimitedReply": true
+    }
+  ],
+  "status": "success",
+  "message": "<string>"
+}
+
+400
+{
+  "error": 123,
+  "message": "<string>"
+}
